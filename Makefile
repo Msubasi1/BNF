@@ -1,2 +1,5 @@
-assignment4: assignment4.c
-	gcc -o assignment4 assignment4.c 
+bnf: bnf.c
+	gcc -o bnf bnf.c
+
+clean:
+	rm -f bnf
